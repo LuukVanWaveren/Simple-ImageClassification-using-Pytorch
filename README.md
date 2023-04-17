@@ -10,6 +10,6 @@ The script uses the images to create a dataset, starts learning to correctly cla
 
 Follow these steps to use the script:
 - [Download](https://data.caltech.edu/records/mzrjq-6wc02) the Caltech 101 images from Caltech
-- Unpack the file and insert folders "" and "" in the "Images" folder
+- Unpack this folder including its subfolders and insert folders "101_ObjectCategories" and "Annotations" in the "Images" folder
 - change learning parameters inside the [input](IC_Input.py) file
 - run the [main](IC_main.py) file to start the script
