@@ -16,7 +16,7 @@ testTrans = True
 
 # Neural network learn settings
 batch_size = 5
-epochs = 3
+epochs = 60
 lr = 0.0008
 momentum = 0.9
 

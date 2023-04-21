@@ -154,7 +154,7 @@ class IC_NetManipulation:
                                                colnames=['Predicted'])
             print('\nConfusion matrix of test set\n')
             print(confusion_matrix)
-            confusion_matrix.to_csv(result_path + 'testSetConfusionMatrix.csv')
+            confusion_matrix.to_csv(I.result_path + 'testSetConfusionMatrix.csv')
 
     def createNet(self):
         net = Net(I.n_Class)
