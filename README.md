@@ -43,7 +43,7 @@ each epoch the performance is measured
 
 <img src="GitHubReadmeFiles/TrainingAndFinalTest.gif" width="896" height="504"/>
 
-The validation performance at the end of training is 80%
+The validation performance at the end of training is 90%
 
 ![thumbnail03](GitHubReadmeFiles/EndOfTrainingResult.png)
 
@@ -54,6 +54,6 @@ the graph shows that the neural network started overfitting at around epoch 45. 
 
 _The final test:_
 
-the final test performance is 70%
+the final test performance is 95%
 
 ![thumbnail05](GitHubReadmeFiles/FinalTestResult.png)
