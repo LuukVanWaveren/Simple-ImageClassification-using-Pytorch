@@ -48,7 +48,8 @@ The validation performance at the end of training is 90%
 ![thumbnail03](GitHubReadmeFiles/EndOfTrainingResult.png)
 
 
-the graph shows that the neural network started overfitting at around epoch 45. From this point on further training is ineffective.
+the graph shows that the neural network started overfitting at around epoch 57.
+From this point on further training is less effective.
 
 ![thumbnail04](GitHubReadmeFiles/TrainValGraph.png)
 
