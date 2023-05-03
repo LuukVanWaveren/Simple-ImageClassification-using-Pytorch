@@ -17,29 +17,31 @@ Follow these steps to use the script:
 - run the [main](IC_main.py) file to start the script
 
 
-**Example: 2 classes of images**
+## Example: 2 classes of images
 
-_Input:_  
+_Input:_
+```
 n_Class = 2,  
 batch_size = 5, 
 epochs = 60, 
 lr = 0.0008, 
 momentum = 0.9
+```
 
-_DataSets are created for "accordion" and "airplanes":_
+<br/><br/>
+**Step 1: DataSets are created for "accordion" and "airplanes":**
 
 
-the images for training are transformed
+The images are transformed before they are used for training and validation. Left shows transformation for training and right for validation.
+The validation images are kept as close to the original as possible.
 
-![thumbnail01](GitHubReadmeFiles/TrainImageTransform.png)
+<img src="GitHubReadmeFiles/TrainImageTransform.png" width="666" height="688"/>
+<img src="GitHubReadmeFiles/ValImageTransform.png" width="666" height="688"/>
 
-while the validation images are kept as close to the original as possible
+<br/><br/>
+**Step 2: Learning and validating:**
 
-![thumbnail02](GitHubReadmeFiles/ValImageTransform.png)
-
-_Learning and validating:_
-
-each epoch the performance is measured
+each epoch the classification of the neural network is measured on the training and the validation datasets
 
 <img src="GitHubReadmeFiles/TrainingAndFinalTest.gif" width="896" height="504"/>
 
@@ -53,8 +55,10 @@ From this point on further training is less effective.
 
 ![thumbnail04](GitHubReadmeFiles/TrainValGraph.png)
 
-_The final test:_
+<br/><br/>
+**Step 3: The final test:**
 
-the final test performance is 95%
+the final test classification performance is 95%, so the neural network correctly classifies 95% of the images.
+This can also be seen in the confusion matrix, where only 1 of the 20 images was wrongly classified.
 
 ![thumbnail05](GitHubReadmeFiles/FinalTestResult.png)
