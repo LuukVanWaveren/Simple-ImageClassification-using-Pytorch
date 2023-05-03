@@ -35,8 +35,8 @@ momentum = 0.9
 The images are transformed before they are used for training and validation. Left shows transformation for training and right for validation.
 The validation images are kept as close to the original as possible.
 
-<img src="GitHubReadmeFiles/TrainImageTransform.png" width="666" height="688"/>
-<img src="GitHubReadmeFiles/ValImageTransform.png" width="666" height="688"/>
+<img src="GitHubReadmeFiles/TrainImageTransform.png" width="466" height="482"/>
+<img src="GitHubReadmeFiles/ValImageTransform.png" width="466" height="482"/>
 
 <br/><br/>
 **Step 2: Learning and validating:**
