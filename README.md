@@ -2,7 +2,7 @@
 
 **Luuk van Waveren - April 2023**
 
-Machinelearning is a hot topic. As an introduction to machinelearning i made a neural network during my college education.  
+Machinelearning is a hot topic. As an introduction to machinelearning I made a neural network during my college education.  
 This is my python implemention using pytorch that learns to perform simple image classification using an image set from Caltech Data.
 
 The script uses the images to create a dataset, starts learning to correctly classify as to what each image is and shows how good it does this at the end.  
