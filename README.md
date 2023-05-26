@@ -32,7 +32,7 @@ momentum = 0.9
 **Step 1: DataSets are created for "accordion" and "airplanes":**
 
 
-The images are transformed before they are used for training and validation. Left shows transformation for training and right for validation.
+The images are transformed before they are used for training and validation. The first image shows transformation for training and second for validation.
 The validation images are kept as close to the original as possible.
 
 <p float="left">
