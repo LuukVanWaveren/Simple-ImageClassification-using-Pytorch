@@ -36,8 +36,8 @@ The images are transformed before they are used for training and validation. Lef
 The validation images are kept as close to the original as possible.
 
 <p float="left">
-    <img src="GitHubReadmeFiles/TrainImageTransform.png" width="466" height="482"/>
-    <img src="GitHubReadmeFiles/ValImageTransform.png" width="466" height="482"/>
+    <img src="GitHubReadmeFiles/TrainImageTransform.png" width="429" height="442"/>
+    <img src="GitHubReadmeFiles/ValImageTransform.png" width="429" height="442"/>
 </p>
 
 <br/><br/>
